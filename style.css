@@ -415,7 +415,7 @@ a {
   display: flex;
    flex-direction: row;
    gap: 2rem;
-   align-items: stretch;
+   align-items: flex-end;
    width: 100%;
 }
 
@@ -658,6 +658,7 @@ textarea {
     padding-right: 0;
   }
 }
+
 
 
 
