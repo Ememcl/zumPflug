@@ -556,6 +556,18 @@ textarea {
   margin-bottom: 0.3rem;
 }
 
+/* Über-uns Bereich auf Handy untereinander statt nebeneinander */
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: 1fr;   /* statt 2 Spalten nur noch 1 */
+  }
+
+  .img-card {
+    min-height: 220px;            /* etwas kleinere, aber schöne Höhe */
+  }
+}
+
+
 /* --------------------------------------------------
    Footer
 -------------------------------------------------- */
@@ -638,3 +650,4 @@ textarea {
     padding-right: 0;
   }
 }
+
