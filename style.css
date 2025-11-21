@@ -613,3 +613,28 @@ textarea {
 .menu-page .menu-header h2 {
   font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .hero-panel {
+    width: 100%;
+    margin-top: 1.2rem;
+    border-radius: 20px;
+    padding: 1.6rem;
+  }
+
+  .hero-panel-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+}
