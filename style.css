@@ -412,10 +412,11 @@ a {
 
 /* Reservierung / Kontakt-Karten */
 .flex-two {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 2rem;
-  align-items: flex-start;
+  display: flex;
+   flex-direction: row;
+   gap: 2rem;
+   align-items: flex-start;
+   width: 100%;
 }
 
 .info-card {
@@ -575,14 +576,6 @@ textarea {
   }
 }
 
-@media (max-width: 900px) {
-  .flex-two {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-}
-
-
 /* --------------------------------------------------
    Footer
 -------------------------------------------------- */
@@ -665,6 +658,7 @@ textarea {
     padding-right: 0;
   }
 }
+
 
 
 
