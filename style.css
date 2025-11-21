@@ -567,6 +567,14 @@ textarea {
   }
 }
 
+/* Reservierung / Öffnungszeiten Boxen auf Handy untereinander */
+@media (max-width: 900px) {
+  .flex-two {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
 
 /* --------------------------------------------------
    Footer
@@ -650,4 +658,5 @@ textarea {
     padding-right: 0;
   }
 }
+
 
