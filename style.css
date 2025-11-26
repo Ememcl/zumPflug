@@ -277,7 +277,7 @@ a {
   }
 
   .hero-panel {
-    order: -1;
+    order: 2;
   }
 }
 
@@ -667,6 +667,7 @@ textarea {
     padding-right: 0;
   }
 }
+
 
 
 
