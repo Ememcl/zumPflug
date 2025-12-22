@@ -142,7 +142,7 @@ a {
   z-index: -2;
   background-image:
     linear-gradient(to top, rgba(6, 11, 25, 0.85), rgba(15, 23, 42, 0.35)),
-    url("img/background.jpg");
+    url("img/background.png");
   background-size: cover;
   background-position: center;
   transform: scale(1.03);
@@ -336,7 +336,7 @@ a {
   box-shadow: var(--shadow-soft);
   background: #0f172a;
   min-height: 230px;
-  background-image: url("img/bauernspiess.jpg");
+  background-image: url("img/bauernspiess.png");
   background-size: cover;
   background-position: center;
 }
@@ -667,6 +667,7 @@ textarea {
     padding-right: 0;
   }
 }
+
 
 
 
